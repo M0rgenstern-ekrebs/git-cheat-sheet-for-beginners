@@ -72,6 +72,16 @@ git cheat sheet for beginners
 
 <br>
 
+## stash
+- 🤟 `git stash -m "nom_du_stash"`
+  - stasher avec un petit nom
+- 🤟 `git stash list`
+  - lister les stashs avec leurs numéros
+- 🤟 `git stash pop <number_to_pop>`
+  - appliquer & supprimer le stash n°X
+
+<br>
+
 ## inspecter commits
 - 🛹 `git diff <hash_du_commit>`
   - montre ce que ce commit a fait par rapport à ton travail local
