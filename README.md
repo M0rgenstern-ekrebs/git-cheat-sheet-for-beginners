@@ -26,7 +26,7 @@ git cheat sheet for beginners
 - 💀 `git reset <fichier> [fichier...]`
 - 💀 `git commit`
   - commit les fichiers ajoutés, vous ouvre l'utilitaire de texte du terminal pour ecrire votre message de commit
-    - 🛹 par défaut, vous aurez sans doute [nano](https://www.nano-editor.org/docs.php)
+    - par défaut, vous aurez sans doute [nano](https://www.nano-editor.org/docs.php)
     - 🛹💡 vous aimerez peut être utiliser un meilleur editeur de texte terminal
     - 🛹 moi j'utilise [nvchad](https://nvchad.com/)
     - 🛹 `git config --global core.editor "<votre_editeur_préféré>"`
@@ -67,7 +67,7 @@ git cheat sheet for beginners
   - supprimer la branche
     - vous devez vous barrer de la branche avant de pouvoir la supprimer...
 
-- 💡 pour avoir des indications en plus dans votre terminal, je vous conseil d'utiliser [starship](https://starship.rs/), avec [gruvbox, pastelle, ou tokionight...](https://starship.rs/presets/) comme preset
+- 🤟💡 pour avoir des indications en plus dans votre terminal, je vous conseil d'utiliser [starship](https://starship.rs/), avec [gruvbox, pastelle, ou tokionight...](https://starship.rs/presets/) comme preset
 ![starship_gruvbox](./imgs/branches.png "starship avec le preset gruvbox")
 
 <br>
@@ -79,7 +79,7 @@ git cheat sheet for beginners
     - 🛹 installer delta: `sudo apt install delta`
     - 🛹 dire à git d'utiliser delta en mode couleurs pour afficher les différences: `git config --global interactive.diffFilter 'delta --color-only'`
 
-- 🛹 `git show <hash_du_commit>`
+- 🤟 `git show <hash_du_commit>`
   - montre ce que ce commit à fait
 
 <br>
@@ -89,16 +89,16 @@ git cheat sheet for beginners
 
 # Deux mains, trois flingues:
 ## travailler avec des remotes:
-- 🛹 `git remote -v`
+- 🤟 `git remote -v`
   - voir les remotes
-- 🛹 `git remote add <nom_nouveau_depot> <git@github.com:username/repo-name.git>`
+- 🤟 `git remote add <nom_nouveau_depot> <git@github.com:username/repo-name.git>`
   - ajouter un remote (depot distant) 
     - sert pour avoir `github` *et* `gitlab` sur ton même git !
-  - 🛹 `git push <remote>`
-  - 🛹 `git pull <remote>`
-  - 🛹 `git fetch <remote>`
+  - 🤟 `git push <remote>`
+  - 🤟 `git pull <remote>`
+  - 🤟 `git fetch <remote>`
     - 🛹💡 configurer ton git pour que ton push envoie sur ton github *et* ton gitlab en même temps
-    - 🛹💡 `git remote set-url --add --push origin git@github.com:TON_USER/mon-repo.git`
-    - 🛹💡 `git remote set-url --add --push origin git@gitlab.com:TON_USER/mon-repo.git`
-    - 🛹💡 `git push`
+    - 🛹 `git remote set-url --add --push origin git@github.com:TON_USER/mon-repo.git`
+    - 🛹 `git remote set-url --add --push origin git@gitlab.com:TON_USER/mon-repo.git`
+    - 🛹 `git push`
 
