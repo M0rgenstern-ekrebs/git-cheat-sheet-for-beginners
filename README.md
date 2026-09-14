@@ -21,9 +21,12 @@ git cheat sheet for beginners
 ## Basics
 - 💀 `git status`
   - montre les changements
-- 💀 `git add <fichier> [fichier...]`
-  - Ajoute le/les fichier
-- 💀 `git reset <fichier> [fichier...]`
+- 💀 `git restore <fichier|dossier> [fichier|dossier...]`
+  - restaurer un fichier modifié à sa dernière version sur le repo distant
+- 💀 `git add <fichier|dossier> [fichier|dossier...]`
+  - Ajoute le/les fichier(s) ou dossier(s)
+- 💀 `git reset <fichier|dossier> [fichier|dossier...]`
+  - retirer fichier(s) / dossier(s) qui ont été add
 - 💀 `git commit`
   - commit les fichiers ajoutés, vous ouvre l'utilitaire de texte du terminal pour ecrire votre message de commit
     - par défaut, vous aurez sans doute [nano](https://www.nano-editor.org/docs.php)
