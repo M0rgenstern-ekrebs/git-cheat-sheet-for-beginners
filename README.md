@@ -79,6 +79,7 @@ git cheat sheet for beginners
   - lister les stashs avec leurs numéros
 - 🤟 `git stash pop <number_to_pop>`
   - appliquer & supprimer le stash n°X
+- 🤟 `git stash drop <number_to_drop>`
 
 <br>
 
