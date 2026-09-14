@@ -14,7 +14,7 @@ git cheat sheet for beginners
   - recupère les changements et les applique en local
 - 🤟 `git fetch`
   - recupère les changements sans les appliquer en local
-- quand je travail à plusieurs: je `pull` ou je `fetch` avant de commencer à travailler
+- quand je travaille à plusieurs: je `pull` ou je `fetch` avant de commencer à travailler
 
 <br>
 
@@ -74,13 +74,13 @@ git cheat sheet for beginners
 
 ## inspecter commits
 - 🛹 `git diff <hash_du_commit>`
-  - montre ce que ce commit à fait par rapport à ton travail local
+  - montre ce que ce commit a fait par rapport à ton travail local
     - 🛹💡 vous aimerez utiliser [un meilleur diff](https://www.reddit.com/r/commandline/comments/x1pv3z/a_better_git_diff_with_delta/?tl=fr), comme delta en mode couleur, par exemple: 
     - 🛹 installer delta: `sudo apt install delta`
     - 🛹 dire à git d'utiliser delta en mode couleurs pour afficher les différences: `git config --global interactive.diffFilter 'delta --color-only'`
 
 - 🤟 `git show <hash_du_commit>`
-  - montre ce que ce commit à fait
+  - montre ce que ce commit a fait
 
 <br>
 <br>
