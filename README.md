@@ -89,10 +89,10 @@ git cheat sheet for beginners
 ## les tags
 un tag sert à pouvoir se substituer au hash du commit pour l'identifier 👍
 - 🤟 `git tag -a v1.0.0`
-- 🤟 `git tag v1.0.0 -m "Version 1.0.0"`
+- `git tag v1.0.0 -m "Version 1.0.0"`
   - mettre un tag
 - 🤟 `git tag -a v1.0.0 <commit-hash>`
-- 🤟 `git tag v1.0.0 <commit-hash> -m "Version 1.0.0"`
+- `git tag v1.0.0 <commit-hash> -m "Version 1.0.0"`
   - mettre un tag sur un hash précis
 - 🤟 `git tag -n`
   - lister les tags
