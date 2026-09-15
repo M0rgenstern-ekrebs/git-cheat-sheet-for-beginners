@@ -76,7 +76,7 @@ git cheat sheet for beginners
 <br>
 
 ## stash
-- 🤟 `git stash -m "nom_du_stash"`
+- 🤟 `git stash -m "<nom_du_stash>"`
   - stasher avec un petit nom
 - 🤟 `git stash list`
   - lister les stashs avec leurs numéros
@@ -85,6 +85,25 @@ git cheat sheet for beginners
 - 🤟 `git stash drop <number_to_drop>`
 
 <br>
+
+## les tags
+un tag sert à pouvoir se substituer au hash du commit pour l'identifier 👍
+- 🤟 `git tag -a v1.0.0 -m "Version 1.0.0"
+  - mettre un tag
+- 🤟 `git tag -a v1.0.0 <commit-hash> -m "Version 1.0.0"`
+  - mettre un tag sur un hash précis
+- 🤟 `git tag`
+  - lister les tags
+- 🤟 `git push --tags`
+  - push les tags
+- `git tag -f v1.0.0 <commit-hash>`
+  - déplacer un tag vers un autre commit
+- 🤟 `git tag -d v1.2.0`
+  - supprimer un tag local
+- 🤟 `git push origin --delete v1.2.0`
+  - supprimer un tag du remote 
+
+
 
 ## inspecter commits
 - 🛹 `git diff <hash_du_commit>`
