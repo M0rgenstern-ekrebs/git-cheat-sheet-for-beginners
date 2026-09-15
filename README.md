@@ -1,6 +1,6 @@
-# git-cheat-sheet-for-beginners
-git cheat sheet for beginners
+
 # git: git de survie, par MorgenMorg
+
 <br>
 
 💀: need to know to be [alive](https://www.youtube.com/watch?v=94RQK400T7k "chanson au pif") (important)
@@ -8,6 +8,8 @@ git cheat sheet for beginners
 🤟: need to know to be [rock](www.youtube.com/watch?v=94RQK400T7k "chanson au paf") (great)
 
 🛹: need to know to be a [freestyler](https://www.youtube.com/watch?v=ymNFyxvIdaM "chanson au pouf") (optional)
+
+#### pour tout problème, n'hésitez pas à [créer un ticket](https://docs.github.com/fr/issues/tracking-your-work-with-issues/using-issues/creating-an-issue)
 
 <br>
 
