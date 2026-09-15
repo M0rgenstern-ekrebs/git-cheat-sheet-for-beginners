@@ -1,13 +1,25 @@
 # git-cheat-sheet-for-beginners
 git cheat sheet for beginners
 # git: git de survie, par MorgenMorg
+<br>
+
 💀: need to know to be [alive](https://www.youtube.com/watch?v=94RQK400T7k "chanson au pif") (important)
 
 🤟: need to know to be [rock](www.youtube.com/watch?v=94RQK400T7k "chanson au paf") (great)
 
 🛹: need to know to be a [freestyler](https://www.youtube.com/watch?v=ymNFyxvIdaM "chanson au pouf") (optional)
 
-## cloner
+<br>
+
+---
+
+<br>
+<br>
+<br>
+<br>
+
+# Les bases
+### cloner
 - 💀 `git clone`
   - clone une repo à partir de l'url
 - 💀 `git pull`
@@ -16,9 +28,7 @@ git cheat sheet for beginners
   - recupère les changements sans les appliquer en local
 - quand je travaille à plusieurs: je `pull` ou je `fetch` avant de commencer à travailler
 
-<br>
-
-## Basics
+### bases
 - 💀 `git status`
   - montre les changements
 - 💀 `git restore <fichier|dossier> [fichier|dossier...]`
@@ -49,7 +59,7 @@ git cheat sheet for beginners
 <br>
 
 # travail en équipe
-## branches
+### branches
 - 💀 `git branch`
   - lister les branches
 
@@ -73,9 +83,9 @@ git cheat sheet for beginners
 - 🤟💡 pour avoir des indications en plus dans votre terminal, je vous conseil d'utiliser [starship](https://starship.rs/), avec [gruvbox, pastelle, ou tokionight...](https://starship.rs/presets/) comme preset
 ![starship_gruvbox](./imgs/branches.png "starship avec le preset gruvbox")
 
-<br>
 
-## stash
+
+### stash
 - 🤟 `git stash -m "<nom_du_stash>"`
   - stasher avec un petit nom
 - 🤟 `git stash list`
@@ -86,7 +96,7 @@ git cheat sheet for beginners
 
 <br>
 
-## les tags
+### les tags
 un tag sert à pouvoir se substituer au hash du commit pour l'identifier 👍
 - 🤟 `git tag -a v1.0.0`
 - `git tag v1.0.0 -m "Version 1.0.0"`
@@ -109,7 +119,7 @@ un tag sert à pouvoir se substituer au hash du commit pour l'identifier 👍
 
 <br>
 
-## inspecter commits
+### inspecter commits
 - 🛹 `git diff <hash_du_commit>`
   - montre ce que ce commit a fait par rapport à ton travail local
     - 🛹💡 vous aimerez utiliser [un meilleur diff](https://www.reddit.com/r/commandline/comments/x1pv3z/a_better_git_diff_with_delta/?tl=fr), comme delta en mode couleur, par exemple: 
@@ -125,7 +135,7 @@ un tag sert à pouvoir se substituer au hash du commit pour l'identifier 👍
 <br>
 
 # Deux mains, trois flingues:
-## travailler avec des remotes:
+### travailler avec des remotes:
 - 🤟 `git remote -v`
   - voir les remotes
 - 🤟 `git remote add <nom_nouveau_depot> <git@github.com:username/repo-name.git>`
