@@ -9,11 +9,11 @@
 
 🛹: need to know to be a [freestyler](https://www.youtube.com/watch?v=ymNFyxvIdaM "chanson au pouf") (optional)
 
-#### pour tout problème, n'hésitez pas à [créer un ticket](https://docs.github.com/fr/issues/tracking-your-work-with-issues/using-issues/creating-an-issue)
+###### pour tout problème ou rajout, n'hésitez pas à [créer un ticket](https://docs.github.com/fr/issues/tracking-your-work-with-issues/using-issues/creating-an-issue)
 
 <br>
 
----
+___
 
 <br>
 <br>
