@@ -95,7 +95,9 @@ un tag sert à pouvoir se substituer au hash du commit pour l'identifier 👍
 - `git tag v1.0.0 <commit-hash> -m "Version 1.0.0"`
   - mettre un tag sur un hash précis
 - 🤟 `git tag -n`
-  - lister les tags
+- `git tag -n25`
+  - lister les tags en donnant la première ligne de leur description
+  -  lister les tags en donnant jusqu'à 25 lignes de leur descriptions
 - 🤟 `git push --tags`
   - push les tags
 - 🛹 `git tag -f v1.0.0 <commit-hash>`
@@ -105,7 +107,7 @@ un tag sert à pouvoir se substituer au hash du commit pour l'identifier 👍
 - 🛹 `git push origin --delete v1.2.0`
   - supprimer un tag du remote 
 
-
+<br>
 
 ## inspecter commits
 - 🛹 `git diff <hash_du_commit>`
